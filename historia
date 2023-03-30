@@ -1,0 +1,15 @@
+CREATE TABLE students (
+  iano INTO PRIMARY KEY,
+  eventos VARCHAR(30) NOT NULL,
+  localidade CHAR(1) NOT NULL
+  descriçao VARCHAR (255)NOT NULL,
+);
+-- insert some values
+INSERT INTO historia VALUES (1945, 'bomba de hiroshima', 'Japao', 'tacaro bomba');
+INSERT INTO historia VALUES (2020, 'pandemia', 'mundial', ' morreu gente');
+INSERT INTO historia VALUES (2023, 'plaza caiu', ' osasco', 'estacionamento desabou');
+INSERT INTO historia VALUES(2022,'copa do mundo', ' quatar',' campeonato de futebol');
+INSERT INTO historia VALUES(2023,'show', 'brasil', 'show do coldplay');
+INSERT INTO historia VALUES(2019, 'fogo na floresta','brasil','pegou fogo na amazonica');
+-- fetch some values
+SELECT * FROM students WHERE gender = 'F';
